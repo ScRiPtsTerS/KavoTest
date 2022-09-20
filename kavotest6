@@ -124,11 +124,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
     Orange = {
-        SchemeColor = Color3.fromRGB(203, 132, 66),
-        Background = Color3.fromRGB(203, 132, 66),
-        Header = Color3.fromRGB(160, 95, 53),
+        SchemeColor = Color3.fromRGB(160, 95, 53),
+        Background = Color3.fromRGB(160, 95, 53),
+        Header = Color3.fromRGB(218, 133, 65),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(160, 95, 53)
+        ElementColor = Color3.fromRGB(218, 133, 65)
     },
     Secret = {
         SchemeColor = Color3.fromRGB(Gay, Gay2, Gay3),
