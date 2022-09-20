@@ -1,8 +1,8 @@
 local Kavo = {}
 
-local Gay = (math.random)
-local Gay2 = (math.random)
-local Gay3 = (math.random)
+local Gay = (math.random(0, 255))
+local Gay2 = (math.random(0, 255))
+local Gay3 = (math.random(0, 255))
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
