@@ -1,8 +1,8 @@
 local Kavo = {}
 
-local Gay = (math.sin(workspace.DistributedGameTime/2)/2)+0.5
-local Gay2 = (math.sin(workspace.DistributedGameTime)/2)+0.5
-local Gay3 = (math.sin(workspace.DistributedGameTime*1.5)/2)+0.5
+local Gay = (math.random)
+local Gay2 = (math.random)
+local Gay3 = (math.random)
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
@@ -123,14 +123,14 @@ local themeStyles = {
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
-    Secret = {
+    Orange = {
         SchemeColor = Color3.fromRGB(203, 132, 66),
         Background = Color3.fromRGB(203, 132, 66),
         Header = Color3.fromRGB(218, 133, 65),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(218, 133, 65)
     },
-    Mystery = {
+    Secret = {
         SchemeColor = Color3.fromRGB(Gay, Gay2, Gay3),
         Background = Color3.fromRGB(Gay, Gay2, Gay3),
         Header = Color3.fromRGB(Gay, Gay2, Gay3),
