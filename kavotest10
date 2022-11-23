@@ -1,6 +1,8 @@
 local Kavo = {}
 
 getgenv().Color = (math.random(0, 255))
+getgenv().Color2 = getgenv().Color
+getgenv().Color3 = getgenv().Color
 
 local tween = game:GetService("TweenService")
 local tweeninfo = TweenInfo.new
@@ -131,9 +133,9 @@ local themeStyles = {
     Premhub = {
         SchemeColor = Color3.fromRGB(1, 1, 1),
         Background = Color3.fromRGB(1, 1, 1),
-        Header = Color3.fromRGB(getgenv().Color, getgenv().Color, getgenv().Color),
+        Header = Color3.fromRGB(getgenv().Color, getgenv().Color2, getgenv().Color3),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(getgenv().Color, getgenv().Color, getgenv().Color)
+        ElementColor = Color3.fromRGB(getgenv().Color, getgenv().Color2, getgenv().Color3)
     }
 }
 local oldTheme = ""
