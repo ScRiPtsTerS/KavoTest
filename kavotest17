@@ -140,8 +140,8 @@ local themeStyles = {
     Christmas = {
         SchemeColor = Color3.fromRGB(175, 221, 255),
         Background = Color3.fromRGB(199, 212, 228),
-        Header = Color3.fromRGB(159, 243, 233),
-        TextColor = Color3.fromRGB(159, 243, 233),
+        Header = Color3.fromRGB(231, 231, 236),
+        TextColor = Color3.fromRGB(152, 194, 219),
         ElementColor = Color3.fromRGB(231, 231, 236)
     }
 }
