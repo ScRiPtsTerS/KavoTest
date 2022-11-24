@@ -136,6 +136,13 @@ local themeStyles = {
         Header = Color3.fromRGB(getgenv().Color, getgenv().Color2, getgenv().Color4),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(getgenv().Color, getgenv().Color2, getgenv().Color4)
+    },
+    Christmas = {
+        SchemeColor = Color3.fromRGB(199, 212, 228),
+        Background = Color3.fromRGB(199, 212, 228),
+        Header = Color3.fromRGB(231, 231, 236),
+        TextColor = Color3.fromRGB(255,255,255),
+        ElementColor = Color3.fromRGB(231, 231, 236)
     }
 }
 local oldTheme = ""
@@ -191,6 +198,8 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.Orange
     elseif themeList == "Premhub" then
         themeList = themeStyles.Premhub
+    elseif themeList == "Christmas" then
+        themeList = themeStyles.Christmas
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
