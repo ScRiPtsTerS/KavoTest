@@ -138,11 +138,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(getgenv().Color, getgenv().Color2, getgenv().Color4)
     },
     Christmas = {
-        SchemeColor = Color3.fromRGB(199, 212, 228),
+        SchemeColor = Color3.fromRGB(4, 175, 236),
         Background = Color3.fromRGB(175, 221, 255),
-        Header = Color3.fromRGB(231, 231, 236),
+        Header = Color3.fromRGB(255, 255, 255),
         TextColor = Color3.fromRGB(152, 194, 219),
-        ElementColor = Color3.fromRGB(231, 231, 236)
+        ElementColor = Color3.fromRGB(255, 255, 255)
     }
 }
 local oldTheme = ""
